@@ -5,6 +5,10 @@
     --primary-white-color: #ffffff;
     --primary-accent-color: #2e2f42; 
     --secondary-accent-color: #404BBF;
+    --iris: #4d5ae5;
+    --cloud: #f4f4f4; 
+    --ocean: #404BBF; 
+    
 }
 
 body {
@@ -14,6 +18,19 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.5; 
+}
+.logo-web-head {
+    font-size: 18px;
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        color: var(--iris);
+        text-decoration: none;
+        text-transform: uppercase;
+}
+.logo-studio-head {
+    color: var(--primary-accent-color);
 }
 .list {
     list-style: none;
@@ -81,18 +98,93 @@ footer {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.32px;
-    color: #f4f4fd;
+    color: var(--cloud);
 }
 .logo-web {
     font-size: 18px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
     line-height: 1.16;
-    letter-spacing: 0.4px;
-    color: #4d5ae5;
+    letter-spacing: 0.54px;
+    color: var(--iris);
     text-decoration: none;
     text-transform: uppercase;
 }
 .logo-studio {
     color: var(--primary-white-color);
 }
+
+.first-tittle {
+    color: var(--primary-white-color);
+    background-color: var(--primary-accent-color) ;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.advantages-tittle {
+    color: var(--primary-accent-color);
+    background-color: var(--primary-white-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.advantages-text {
+    color: var(--primary-black-color);
+    background-color: var(--primary-white-color);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.second-tittle {
+    color: var(--primary-accent-color);
+    background-color: var(--primary-white-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.team-card {
+    background-color: var(--primary-white-color);  
+}
+.member-name {
+    color: var(--primary-accent-color);
+    background-color: var(--primary-white-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.member-position {
+    color: var(--primary-black-color);
+    background-color: var(--primary-white-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.btn-order {
+    background-color: var(--iris);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+.btn-order:hover {
+    background-color: var(--ocean);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+.btn-all {
+    background-color: var(--iris);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+.btn-all:hover {
+    background-color: var(--ocean);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+.four-btn {
+    background-color: var(--cloud) ;
+    color: var(--iris);
+    cursor: pointer;
+}
+
