@@ -49,11 +49,11 @@ body {
     letter-spacing: 0.02em;
     background-color: var(--primary-white-color);   
 }
-.nav-link:hover, .nav-link:focus .nav-link:active {
+.nav-link:hover, .nav-link:focus, .nav-link:active {
     color: var(--secondary-accent-color);
     background-color: var(--primary-white-color);
 }
-.header-adress {
+.header-address {
     font-style: normal;
 }
 .address-link {
