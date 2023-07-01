@@ -74,6 +74,7 @@ body {
  font-size: 20px;
  font-weight: 500;
  line-height: 1.2;
+ letter-spacing: 0.02em;
 }
 .content-text {
   color: var(--primary-black-color);
@@ -106,6 +107,7 @@ footer {
     font-weight: 700;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 .advantages-tittle {
     color: var(--primary-accent-color);
@@ -123,6 +125,7 @@ footer {
     line-height: 1.11;
     text-transform: capitalize;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 .section-four {
     background-color: var(--secondary-white-color);
