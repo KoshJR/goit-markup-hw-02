@@ -16,9 +16,9 @@ body {
     font-family: var(--primary-font);
     color: var(--primary-black-color);
     background-color: var(--primary-white-color);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
 .link {
     text-decoration: none;
@@ -44,43 +44,26 @@ body {
 .nav-link {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    color: var(--primary-accent-color);
-    letter-spacing: 0.02em;
-    background-color: var(--primary-white-color);   
+    color: var(--primary-accent-color);   
 }
 .nav-link:hover, .nav-link:focus, .nav-link:active {
     color: var(--secondary-accent-color);
-    background-color: var(--primary-white-color);
 }
 .header-address {
     font-style: normal;
 }
 .address-link {
-    font-size: 16px;
-    font-weight: 400;
     font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--primary-black-color);
-    background-color: var(--primary-white-color);
 }
 .address-link:hover, .address-link:focus {
     color: var(--secondary-accent-color);
-    background-color: var(--primary-white-color);
 }
 .address-tel {
-    font-size: 16px;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 0.32;
-        color: var(--primary-accent-color);
-        background-color: var(--primary-white-color);
+    color: var(--primary-accent-color);
 }
 .address-tel:hover, .address-tel:focus {
     color: var(--secondary-accent-color);
-    background-color: var(--primary-white-color);
 }
 .section-one {
     background-color: var(--primary-accent-color);
@@ -89,28 +72,17 @@ body {
  color: var(--primary-accent-color);
  background-color: var(--primary-white-color);
  font-size: 20px;
- letter-spacing: 0.02em;
- text-decoration: none;
  font-weight: 500;
  line-height: 1.2;
 }
 .content-text {
   color: var(--primary-black-color);
-  background-color: var(--primary-white-color);
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.32px;
 }
-button {
-    cursor: pointer;
-}
+
 footer {
     background-color:var(--primary-accent-color);
 }
 .footer-text {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
     color: var(--secondary-white-color);
 }
 .logo-web {
@@ -133,32 +105,22 @@ footer {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
     text-align: center;
 }
 .advantages-tittle {
     color: var(--primary-accent-color);
-    background-color: var(--primary-white-color);
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     font-weight: 500;
 }
 .advantages-text {
     color: var(--primary-black-color);
-    background-color: var(--primary-white-color);
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-size: 16px;
 }
 .second-tittle {
     color: var(--primary-accent-color);
-    background-color: var(--primary-white-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
 }
@@ -170,18 +132,12 @@ footer {
 }
 .member-name {
     color: var(--primary-accent-color);
-    background-color: var(--primary-white-color);
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     font-weight: 500;
 }
 .member-position {
     color: var(--primary-black-color);
-    background-color: var(--primary-white-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 .btn-order {
     background-color: var(--iris);
@@ -196,7 +152,6 @@ footer {
 .btn-order:hover, .btn-order:focus {
     background-color: var(--secondary-accent-color);
     color: var(--primary-white-color);
-    cursor: pointer;
 }
 .btn-all {
     background-color: var(--secondary-white-color);
@@ -212,11 +167,6 @@ footer {
 .btn-all:hover, .btn-all:focus {
     background-color: var(--secondary-accent-color);
     color: var(--primary-white-color);
-    cursor: pointer;
 }
-.four-btn {
-    background-color: var(--cloud) ;
-    color: var(--iris);
-    cursor: pointer;
-}
+
 
